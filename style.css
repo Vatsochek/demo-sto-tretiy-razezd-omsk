@@ -271,6 +271,13 @@ h3 { font-size: 1.08rem; font-weight: 650; }
 .garage-review-list li { align-items: start; gap: .6rem; }
 .garage-review-list p { margin: 0 0 .4rem; }
 .garage-review-list a { color: var(--garage-accent); }
+.garage-review-source { margin-bottom: .85rem; color: var(--garage-accent); }
+.garage-reviews-frame {
+  display: block;
+  width: clamp(min(300px, 94vw), 100%, 760px);
+  border: 0;
+  border-radius: .55rem;
+}
 .theme-auto-service .review-summary { border-color: #454a50; background: #1d2227; }
 .theme-auto-service .review-summary:hover { border-color: var(--garage-accent); }
 .theme-auto-service .review-summary-values strong,
